@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80" # 로컬 8080 포트를 컨테이너의 80 포트로 매핑
+    volumes:
+      - ./src:/var/www/areono # 로컬 src 디렉토리를 컨테이너에 마운트
