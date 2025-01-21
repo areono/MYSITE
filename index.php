@@ -1,4 +1,3 @@
-<!--sqlpw - shJeon1374_! -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
